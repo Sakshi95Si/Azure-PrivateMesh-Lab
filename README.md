@@ -20,35 +20,37 @@ This project aims to design and implement a Hub-and-Spoke network architecture i
 
  ![SS](Screenshots/Hub&spokes.png)
 
+
+
 **On-Premises Setup:**
 
-1.Domain Controller (DC)
+* Domain Controller (DC) (For setup : https://github.com/Sakshi95Si/AD-Domain_Lab/edit/main/README.md)
 
-2.Site-to-Site VPN Connection to Azure
+* Site-to-Site VPN Connection to Azure
 
 **Azure Hub-and-Spoke Design:**
 
 Hub Network:
 
-1.Virtual Network Gateway (for S2S VPN)
+* Virtual Network Gateway (for S2S VPN)
 
-2.Azure Firewall (for centralized security)
+* Azure Firewall (for centralized security)
 
-3.Private DNS (for internal name resolution)
+* Private DNS (for internal name resolution)
 
 
 Spoke Networks:
 
-1.Peered with the Hub for connectivity
+* Peered with the Hub for connectivity
 
-2.Subnets configured with NSGs and UDRs
+* Subnets configured with NSGs and UDRs
 
 
 **Access & Security:**
 
-1.Azure Bastion for secure VM access
+* Azure Bastion for secure VM access
 
-2.Traffic flow managed via Azure Firewall and UDRs
+* Traffic flow managed via Azure Firewall and UDRs
 
 
 
@@ -60,4 +62,4 @@ Spoke Networks:
 
 **Hybrid Connectivity:** Site-to-Site VPN, Virtual Network Gateway
 
-**Management & Access:** Azure Bastion, Azure Portal, PowerShell
+**Management & Access:** Azure Bastion, Azure Portal
