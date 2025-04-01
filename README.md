@@ -17,6 +17,9 @@ This project aims to design and implement a Hub-and-Spoke network architecture i
 
 ## Architecture Overview
 
+
+ ![SS](Screenshots/Hub&spokes.png)
+
 **On-Premises Setup:**
 
 1.Domain Controller (DC)
