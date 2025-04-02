@@ -24,7 +24,7 @@ This project aims to design and implement a Hub-and-Spoke network architecture i
 
 **On-Premises Setup:**
 
-* Domain Controller (DC) (For setup : https://github.com/Sakshi95Si/AD-Domain_Lab/edit/main/README.md)
+* Domain Controller (DC) (For setup : https://github.com/Sakshi95Si/AD-Domain_Lab )
 
 * Site-to-Site VPN Connection to Azure
 
