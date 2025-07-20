@@ -18,7 +18,7 @@ This project aims to design and implement a Hub-and-Spoke network architecture i
 ## Architecture Overview
 
 
- ![SS]()
+ ![SS](Screenshots/Hub&spokes-Page.png)
 
 
 
