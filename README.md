@@ -36,8 +36,6 @@ Hub Network:
 
 * Azure Firewall (for centralized security)
 
-* Private DNS (for internal name resolution)
-
 
 Spoke Networks:
 
@@ -58,7 +56,7 @@ Spoke Networks:
 
 **Networking:** Virtual Networks, Subnets, VNet Peering
 
-**Security:** Azure Firewall, NSGs, UDRs, Private DNS
+**Security:** Azure Firewall, NSGs, UDRs
 
 **Hybrid Connectivity:** Site-to-Site VPN, Virtual Network Gateway
 
