@@ -15,10 +15,11 @@ This project aims to design and implement a Hub-and-Spoke network architecture i
 **Remote Access & Management:** Configured Azure Bastion for secure remote access to VMs without exposing RDP/SSH ports.
 
 
+
 ## Architecture Overview
 
 
- ![SS](Screenshots/Hub&spokes-Page.png)
+ ![SS](Screenshots/Hub&spokes-Page-1.png)
 
 
 
@@ -35,6 +36,10 @@ Hub Network:
 * Virtual Network Gateway (for S2S VPN)
 
 * Azure Firewall (for centralized security)
+  
+* Azure Private DNS Resolver(for DNS resolution)
+
+* Azure Bastion (For secure connections to VMs)
 
 
 Spoke Networks:
@@ -54,7 +59,7 @@ Spoke Networks:
 
 ## Tools & Services Used
 
-**Networking:** Virtual Networks, Subnets, VNet Peering
+**Networking:** Virtual Networks, Subnets, VNet Peering, Azure Private DNS zone
 
 **Security:** Azure Firewall, NSGs, UDRs
 
